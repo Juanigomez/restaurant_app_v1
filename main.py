@@ -26,7 +26,7 @@ def homepage():
         location = st.selectbox("Selecciona una ubicacion:", ["Montevideo", "Punta del Este"])
         keyword_Input, inp_Btn = st.columns([7, 1])
         with keyword_Input: 
-            all_Foods = ["Milanesa", "Pizza", "Hamburguesa", "Ensaladas", "Sushi", "Comida china", "Pescado"]
+            all_Foods = ["Empanadas", "Pizza", "Hamburguesa", "Ensaladas", "Sushi", "Comida china", "Pescado"]
             food = st.selectbox("Que quieres comer? ", all_Foods)
         with inp_Btn:
             st.text("")
